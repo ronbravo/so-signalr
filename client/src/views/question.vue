@@ -25,8 +25,8 @@
 <script>
 import { mapGetters } from 'vuex'
 import VueMarkdown from 'vue-markdown'
-import QuestionScore from '@/components/question-score'
-import AddAnswerModal from '@/components/add-answer-modal'
+import QuestionScore from '@/components/question-score.vue'
+import AddAnswerModal from '@/components/add-answer-modal.vue'
 
 export default {
   components: {

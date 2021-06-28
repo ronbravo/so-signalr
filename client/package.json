@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build": "npx vue-cli-service build",
+    "dev": "npx poi ./src/main.js --serve --port 8080",
+    "link:pkg": "npm link @tamedjs/tm-oasis",
+    "lint": "npx vue-cli-service lint",
+    "serve": "npx vue-cli-service serve --port 3000"
   },
   "dependencies": {
     "@aspnet/signalr": "^1.1.0",
@@ -17,9 +19,9 @@
     "@fortawesome/fontawesome-free": "^5.11.2",
     "@vue/cli-plugin-babel": "^4.0.5",
     "@vue/cli-plugin-eslint": "^4.0.5",
-    "@vue/cli-service": "^4.0.5",
+    "@vue/cli-service": "^4.5.13",
     "@vue/eslint-config-standard": "^4.0.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-eslint": "^10.0.3",
     "babel-runtime": "^6.26.0",
     "bootstrap-vue": "^2.0.4",

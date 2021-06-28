@@ -3,11 +3,14 @@ import BootstrapVue from 'bootstrap-vue'
 import axios from 'axios'
 import router from './router'
 import store from './store'
-import App from './App'
+import App from './App.vue';
 import QuestionHub from './question-hub'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import '@fortawesome/fontawesome-free/css/all.css'
+
+import { setup } from '@tamedjs/tm-oasis'
+setup ()
 
 Vue.config.productionTip = false
 

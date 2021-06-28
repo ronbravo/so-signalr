@@ -18,7 +18,7 @@
 
 <script>
 import VueMarkdown from 'vue-markdown'
-import QuestionScore from '@/components/question-score'
+import QuestionScore from '@/components/question-score.vue'
 
 export default {
   components: {

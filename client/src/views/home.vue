@@ -22,8 +22,8 @@
 
 <script>
 import { mapGetters, mapState } from 'vuex'
-import QuestionPreview from '@/components/question-preview'
-import AddQuestionModal from '@/components/add-question-modal'
+import QuestionPreview from '@/components/question-preview.vue'
+import AddQuestionModal from '@/components/add-question-modal.vue'
 
 export default {
   components: {

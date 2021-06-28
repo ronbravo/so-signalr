@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HomePage from '@/views/home'
-import QuestionPage from '@/views/question'
+import HomePage from '@/views/home.vue'
+import QuestionPage from '@/views/question.vue'
 
 Vue.use(Router)
 

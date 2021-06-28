@@ -1,5 +1,8 @@
 import { HubConnectionBuilder, LogLevel } from '@aspnet/signalr'
 
+// export function setup () {
+// }
+
 export default {
   install (Vue) {
     // use a new Vue instance as the interface for Vue components to receive/send SignalR events

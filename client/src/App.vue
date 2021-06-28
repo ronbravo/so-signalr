@@ -13,9 +13,9 @@
 
 <script>
 import { mapActions } from 'vuex'
-import MainNavbar from './components/main-navbar'
-import LoginModal from './components/login-modal'
-import LiveChatModal from '@/components/live-chat-modal'
+import MainNavbar from './components/main-navbar.vue'
+import LoginModal from './components/login-modal.vue'
+import LiveChatModal from '@/components/live-chat-modal.vue'
 
 export default {
   name: 'App',
